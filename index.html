@@ -6,6 +6,7 @@
     <title>Document</title>
     <script src="pixi.min.js"></script>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="maps.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -83,15 +84,777 @@
       </div>
     </div>
   </div>
+  <div class="place-content-center my-20" id="champions">
+    <h1 class="text-video">Top 10 drivers with the most Championships</h1>
+  </div>
+  <div class="championsWrapper" >
+    <div class="champions">
+
+      <div class="card">
+        <img src="./images/top10/schumacher3.avif" class="card-img-top" alt="Schumacher">
+        <div class="card-body" >
+          <h5 class="card-title">Michael Schumacher</h5>
+        </div>
+        <ul class="list-group list-group-flush"">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Ferrari</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Germany</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">155</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">1566</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">7</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">91</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/hamilton3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lewis Hamilton</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Mercedes</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">United Kingdom</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">197</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">4674.5</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">7</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">103</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/fangio2.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Juan Manuel Fangio</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Maserati</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Argentina</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">35</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">277.6</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">5</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">24</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/prost5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alain Prost</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Williams</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">France</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">106</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">798.5</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">4</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">51</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/vettel3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sebastian Vettel</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Red Bull</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Germany</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">122</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">3098</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">4</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">53</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/stewart2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jackie Stewart</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Tyrrell</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">United Kingdom</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">43</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">360</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">3</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">27</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/lauda2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Niki Lauda</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Mclaren</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Austria</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">54</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">420.5</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">3</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">25</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/piquet2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nelson Piquet</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Williams</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Brazil</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">60</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">485.5</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">3</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">23</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/senna2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aryton Senna</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Mclaren</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Brazil</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">80</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">614</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">3</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">41</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <img src="./images/top10/verstappen3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Max Verstappen</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Team</strong> <p class="col-4 txt">Red Bull</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Country</strong> <p class="col-4 txt">Netherlands</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Podiums</strong> <p class="col-4 txt">104</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Points</strong> <p class="col-4 txt">2747.5</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">World Championships</strong> <p class="col-4 txt">3</p>
+            </div>
+          </li>
+          <li class="list-group-item lart">
+            <div class="row justify-content-between">
+              <strong class="strong col">Wins</strong> <p class="col-4 txt">59</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="place-content-center my-20" id="circuit">
+    <h1 class="text-video">F1 Schedule 2024</h1>
+  </div>
+  <div class="relative py-8 sm:py-8 xl:py-3 min-w-full min-h-screen flex items-center justify-center text-white my-24">
+    <div class="grid border-x lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 lg:divide-x divide-solid divide-white gap-4">
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/bahrain.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Bahrain International Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2004
+            Number of Laps: 57
+            Circuit Length: 5.412km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">Bahrain</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/jeddah.png" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Jeddah Corniche Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2021
+            Number of Laps: 50
+            Circuit Length: 6.174km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">Saudi Arabia</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/australia.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Melbourne Grand Prix Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1996
+            Number of Laps: 58
+            Circuit Length: 5.278km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">Australia</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/japan.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Suzuka International Racing Course</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1987
+            Number of Laps: 53
+            Circuit Length: 5.807km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">JAPAN</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/china.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Shanghai International Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2004
+            Number of Laps: 56
+            Circuit Length: 5.451km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">CHINA</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/miami.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Miami International Autodrome</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2022
+            Number of Laps: 57
+            Circuit Length: 5.412km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">MIAMI</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/emilia-italy.png" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Autodromo Enzo e Dino Ferrari</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1980
+            Number of Laps: 63
+            Circuit Length: 4.909km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">EMILIA ROMAGNA</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/monaco.png" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Autodromo Enzo e Dino Ferrari</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1950
+            Number of Laps: 78
+            Circuit Length: 3.337km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            MONACO</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/canada.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Circuit Gilles-Villeneuve</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1978
+            Number of Laps: 70
+            Circuit Length: 4.361km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            CANADA</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/spain.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Circuit de Barcelona-Catalunya</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1991
+            Number of Laps: 66
+            Circuit Length: 4.657km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            SPAIN</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/austria.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Red Bull Ring</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1970
+            Number of Laps: 71
+            Circuit Length: 4.318km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            AUSTRIA</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/uk.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Silverstone Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1950
+            Number of Laps: 52
+            Circuit Length: 5.891km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            GREAT BRITAIN</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/hungary.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Hungaroring</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1986
+            Number of Laps: 70
+            Circuit Length: 4.381km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            HUNGARY</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/belgium.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Circuit de Spa-Francorchamps</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1950
+            Number of Laps: 44
+            Circuit Length: 7.004km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            BELGIUM</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/netherlands.png" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Circuit Zandvoort</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1952
+            Number of Laps: 72
+            Circuit Length: 4.259km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            NETHERLANDS</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/italy.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Autodromo Nazionale Monza</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1950
+            Number of Laps: 53
+            Circuit Length: 5.793km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            ITALY</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/AZERBAIJAN.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Baku City Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2016
+            Number of Laps: 51
+            Circuit Length: 6.003km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            AZERBAIJAN</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/singapore.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Marina Bay Street Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2008
+            Number of Laps: 62
+            Circuit Length: 4.94km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            SINGAPORE</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/us.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Circuit of The Americas</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2012
+            Number of Laps: 56
+            Circuit Length: 5.513km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            UNITED STATES</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/mexico.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Autódromo Hermanos Rodríguez</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1963
+            Number of Laps: 71
+            Circuit Length: 4.304km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            MEXICO</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/brazil.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Autódromo José Carlos Pace</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 1973
+            Number of Laps: 71
+            Circuit Length: 4.309km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            BRAZIL</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/vegas.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Las Vegas Strip Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2023
+            Number of Laps: 50
+            Circuit Length: 6.201km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            LAS VEGAS</div>
+        </div>
+      </article>
+
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/qatar.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Lusail International Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2021
+            Number of Laps: 57
+            Circuit Length: 5.419km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            QATAR</div>
+        </div>
+      </article>
+      
+      <article class="group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2">
+        <div class="sm:pb-8 pb-3"><img src="./images/circuit/abu-dhabi.avif" alt=""></div>
+        <div class="sm:py-3 py-1.5 uppercase font-light">Yas Marina Circuit</div>
+        <div class="sm:h-28 h-20 flex items-center text-xs">
+          <p class="break-words font-light whitespace-pre-line mx-auto w-28">First Grand Prix: 2009
+            Number of Laps: 58
+            Circuit Length: 5.281km
+          </p>
+        </div>
+        <div class="py-8 text-4xl relative">
+          <div class="sm:pt-36 pt-32 sm:pb-0 pb-4 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-48 group-hover:-translate-y-44 group-hover:transition-transform group-hover:text-red-900 flex items-center maps">
+            ABU DHABI</div>
+        </div>
+      </article>
+      
+    </div>
+  </div>
 
     <script src="./js/preload.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/video.js"></script> 
     <script src="./js/slider.js"></script>
+    <script src="./js/scroll.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
 

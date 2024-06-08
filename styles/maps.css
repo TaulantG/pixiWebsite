@@ -1,0 +1,46 @@
+@font-face {
+	font-family: formula-regular;
+	src: url(../fonts/Formula1-Regular.ttf);
+  }
+  @font-face {
+	font-family: formula-bold;
+	src: url(../fonts/Formula1-Bold.ttf);
+  }
+  @font-face {
+	font-family: formula-black;
+	src: url(../fonts/Formula1-Black.ttf);
+  }
+  @font-face {
+	font-family: formula-wide;
+	src: url(../fonts/Formula1-Wide.ttf);
+  }
+
+  .group-hover\:transition-transform {
+	font-family: formula-regular;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+	animation-direction: alternate;
+  }
+  
+  .num {
+	font-family: formula-regular;
+	font-size: 10rem;
+	line-height: 0.9;
+	font-weight: 550;
+	font-variation-settings: "wdth" 35, "YTFI" 788;
+  }
+  
+  .stretch {
+	font-family: formula-regular;
+	font-weight: 500;
+	font-variation-settings: "wdth" 35;
+	writing-mode: vertical-rl;
+  }
+
+  div {
+	font-family: formula-regular;
+  }
+
+  .maps{
+	font-family: formula-bold;
+  }
