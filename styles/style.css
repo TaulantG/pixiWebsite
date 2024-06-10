@@ -23,6 +23,7 @@
 body{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 #containerrr {
@@ -95,11 +96,6 @@ body{
     transform: rotate(360deg);
   }
 }
-
-/* .main-content {
-  display: none;
-} */
-
 
 #navbar {
   position: fixed;
@@ -183,21 +179,19 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 5%;
-  /* border-radius: 25px; */
 }
 
 .play-button {
-  background-image: url('./images/play.png'); 
+  background-image: url('../images/play.png'); 
   background-size: cover;
   width: 50px; 
   height: 50px;
-  /* object-fit: cover; */
   border: 0;
   background-color:unset;
 }
 
 .mute-button {
-  background-image: url('./images/mute.png'); 
+  background-image: url('../images/mute.png'); 
   background-size: cover;
   width: 50px; 
   height: 50px;
@@ -230,15 +224,12 @@ body{
   justify-content: center;
   width: 100%;
   height: auto;
-  /* margin-top: 20px; */
 }
 #pixi-con{
   width: 100%;
   max-width: 800px;
   height: 100%;
   max-height: 600px;
-  
-
 }
 
 @media (max-width: 768px) {
@@ -266,7 +257,6 @@ body{
   .mute-button{
     width: 30px;
     height: 30px;
-    /* object-fit: contain; */
   }
 
 }
@@ -279,6 +269,13 @@ body{
     width: 100%;
     height: 100%;
   }
+  .hero-text h1 {
+    font-size: 1rem;
+  }
+  .text-video{
+    font-size: 1rem;
+  }
+
   #pixi-con {
     max-width: 400px;
     max-height: 300px;
@@ -292,7 +289,6 @@ body{
   .mute-button{
     width: 20px;
     height: 20px;
-    /* object-fit: contain; */
   }
 }
 
@@ -352,4 +348,114 @@ li.list-group-item.lart, .card-body{
 
 .lart{
   height: 40px;
+}
+
+/* Timeline Container */
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Card container */
+.cardt {
+  position: relative;
+  max-width: 700px;
+  padding: 30px;
+}
+
+/* Alternating padding for odd and even cards */
+.cardt:nth-child(odd) {
+  padding-right: 0;
+}
+
+.cardt:nth-child(even) {
+  padding-left: 0;
+}
+
+/* Global ::before */
+.cardt::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: solid rgb(255, 0, 0);
+}
+
+/* Border for odd cards */
+.cardt:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+
+/* Border for even cards */
+.cardt:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0;
+}
+
+/* Removing the border for the first card */
+.cardt:first-child::before {
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+
+/* Removing the border for the last odd card */
+.cardt:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Removing the border for the last even card */
+.cardt:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  background: rgb(60,60,61);
+  background: linear-gradient(14deg, rgba(60,60,61,1) 0%, rgb(67,64,67) 99%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Title of the card */
+.titlee {
+  color: rgb(255, 0, 0);
+  position: relative;
+  margin: 3px;
+  font-family: formula-regular
+}
+
+/* Timeline dot */
+.titlee::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.cardt:nth-child(even) .titlee {
+  text-align: right;
+}
+
+.cardt:nth-child(odd) .titlee::before {
+  left: -45px;
+}
+
+.cardt:nth-child(even) .titlee::before {
+  right: -45px;
 }
