@@ -13,8 +13,7 @@ document.getElementById('pixi-container').appendChild(app.view);
 const videoElement = document.createElement('video');
 videoElement.src = './videos/evolution.mp4';
 videoElement.autoplay = false;
-videoElement.controls = false;
-videoElement.muted = true;
+
 
 // Create a PIXI.VideoTexture from the video element
 const videoTexture = PIXI.Texture.from(videoElement);

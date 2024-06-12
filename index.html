@@ -6,7 +6,7 @@
     <title>Document</title>
     <script src="pixi.min.js"></script>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="maps.css">
+    <link rel="stylesheet" href="./styles/maps.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -33,25 +33,31 @@
         <div class="container-fluid relative">
             <div class="show navbar-collapse show absolute top-1/2 start-1/2 translate-middle" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#evolution">Evolution</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#cars">Cars</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#champions">Champions</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#circuit">Circuit</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#evolution">Evolution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cars">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#champions">Champions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#circuit">Circuit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parts">Parts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teams">Teams</a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </nav>
+      </nav>
     
     
 
@@ -1011,6 +1017,358 @@
   
     </div>
   </div>
+
+  <section class="flex justify-center items-center px-16 py-10 bg-white max-md:px-5" id="teams">
+    <section class="flex flex-col max-w-full w-[1301px]">
+      <header class="pt-10 pb-2 mt-10 text-6xl font-black tracking-wide text-black rounded-tr-3xl border-black border-solid border-r-[10px] border-t-[10px] leading-[62px] max-md:max-w-full max-md:text-4xl year-title">
+        F1 Teams 2024
+      </header>
+
+  
+      <section class="mt-10 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-5 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex justify-start">
+                <h2 class="text-5xl font-black text-black place-title">1</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black border-blue-600 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Red Bull Racing</span>
+                <img loading="lazy" src="./images/teams/team_logo/red-bull-racing.avif" alt="Red Bull Racing logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-3 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Max <strong class="uppercase lastname">Verstappen</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/max.avif" alt="Max Verstappen" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Sergio <strong class="uppercase lastname">Perez</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/checo.avif" alt="Sergio Perez" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/red-bull-racing.avif" alt="Red Bull Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+  
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">2</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black border-red-600 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Ferrari</span>
+                <img loading="lazy" src="./images/teams/team_logo/ferrari.avif" alt="Ferrari logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-3 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Charles <strong class="uppercase lastname">Leclerc</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/charles.avif" alt="Charles Leclerc" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Carlos <strong class="uppercase lastname">Sainz</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/carlos.avif" alt="Carlos Sainz" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/ferrari.avif" alt="Ferrari Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+        </div>
+      </section>
+  
+      <section class="mt-10 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">3</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black whitespace-nowrap border-orange-500 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">McLaren</span>
+                <img loading="lazy" src="./images/teams/team_logo/mclaren.avif" alt="McLaren logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Lando <strong class="uppercase lastname">Norris</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/lando.avif" alt="Lando Norris" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Oscar <strong class="uppercase lastname">Piastri</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/oscar.avif" alt="Oscar Piastri" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/mclaren.avif" alt="McLaren Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+  
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">4</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black whitespace-nowrap border-teal-400 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Mercedes</span>
+                <img loading="lazy" src="./images/teams/team_logo/mercedes.avif" alt="Mercedes logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Lewis <strong class="uppercase lastname">Hamilton</strong> </span>
+                    </div>
+                  <img loading="lazy" src="./images/teams/drivers/lewis.avif" alt="Lewis Hamilton" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">George <strong class="uppercase lastname">Russell</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/george.avif" alt="George Russell" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/mercedes.avif" alt="Mercedes Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+        </div>
+      </section>
+  
+      <section class="mt-10 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">5</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black border-emerald-600 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Aston Martin</span>
+                <img loading="lazy" src="./images/teams/team_logo/aston-martin.avif" alt="Aston Martin logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center ">
+                    <span class="firsname">Fernando <strong class="uppercase lastname">Alonso</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/alonso.avif" alt="Fernando Alonso" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Lance <strong class="uppercase lastname">Stroll</strong></span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/stroll.avif" alt="Lance Stroll" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/aston-martin.avif" alt="Aston Martin Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+  
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">6</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black whitespace-nowrap border-blue-400 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">RB</span>
+                <img loading="lazy" src="./images/teams/team_logo/rb-logo.avif" alt="RB logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Yuki <strong class="uppercase lastname">Tsunoda</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/tsunoda.avif" alt="Yuki Tsunoda" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Daniel <strong class="uppercase lastname">Ricciardo</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/dannyric.avif" alt="Daniel Ricciardo" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/rb.avif" alt="RB Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+        </div>
+      </section>
+  
+      <section class="mt-10 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">7</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black whitespace-nowrap border-gray-400 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Haas</span>
+                <img loading="lazy" src="./images/teams/team_logo/haas.avif" alt="Haas logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Nico <strong class="uppercase lastname">Hulkenberg</strong> </span>
+                </div>
+                  <img loading="lazy" src="./images/teams/drivers/hulkenberg.avif" alt="Nico Hulkenberg" class="shrink-0 w-12 aspect-square" />
+              </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                <div class="flex items-center">
+                  <span class="firsname">Kevin <strong class="uppercase lastname">Magnussen</strong> </span>
+                </div>
+                <img loading="lazy" src="./images/teams/drivers/kmag.avif" alt="Kevin Magnussen" class="shrink-0 w-12 aspect-square" />
+              </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/haas.avif" alt="Haas Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+  
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">8</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black whitespace-nowrap border-sky-300 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Williams</span>
+                <img loading="lazy" src="./images/teams/team_logo/williams.avif" alt="Williams logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Alexander <strong class="uppercase lastname">Albon</strong> </span>
+                </div>
+                  <img loading="lazy" src="./images/teams/drivers/albono.avif" alt="Alexander Albon" class="shrink-0 w-12 aspect-square" />
+              </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                <div class="flex items-center">
+                  <span class="firsname">Logan <strong class="uppercase lastname">Sargeant</strong> </span>
+                </div>
+                <img loading="lazy" src="./images/teams/drivers/sargeant.avif" alt="Logan Sargeant" class="shrink-0 w-12 aspect-square" />
+              </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/williams.avif" alt="Williams Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+        </div>
+      </section>
+  
+      <section class="mt-10 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">9</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black whitespace-nowrap border-sky-600 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Alpine</span>
+                <img loading="lazy" src="./images/teams/team_logo/alpine.avif" alt="Alpine logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Pierre <strong class="uppercase lastname">Gasly</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/gasly.avif" alt="Pierre Gasly" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Esteban <strong class="uppercase lastname">Ocon</strong> </span>
+                    
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/ocon.avif" alt="Esteban Ocon" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/alpine.avif" alt="Alpine Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+  
+          <article class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <header class="flex flex-col grow pt-3 pr-3 rounded-tr-2xl border-t-2 border-r-2 border-black border-solid max-md:mt-10 max-md:max-w-full">
+              <div class="flex gap-5 justify-between tracking-wide whitespace-nowrap leading-[100%] max-md:flex-wrap max-md:max-w-full">
+                <h2 class="text-5xl font-black text-black place-title">10</h2>
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 justify-end pl-4 mt-3 text-2xl font-bold tracking-wide text-black border-green-400 border-solid border-l-[5px] max-md:flex-wrap max-md:max-w-full">
+                <span class="flex-auto my-auto team-title">Kick Sauber</span>
+                <img loading="lazy" src="./images/teams/team_logo/kick-sauber.avif" alt="Kick Sauber logo" class="shrink-0 w-8 aspect-square" />
+              </div>
+              <hr class="shrink-0 mt-3 h-px border-t border-solid border-zinc-950 max-md:max-w-full" />
+              <div class="flex gap-5 mt-4 text-sm tracking-wide text-black whitespace-nowrap max-md:flex-wrap">
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname">Valtteri <strong class="uppercase lastname">Bottas</strong> </span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/bottas.avif" alt="Valtteri Bottas" class="shrink-0 w-12 aspect-square" />
+                </div>
+                <div class="flex flex-1 flex-auto justify-between p-px rounded-br-xl border-r border-b border-solid border-zinc-400">
+                  <div class="flex items-center">
+                    <span class="firsname"> <strong class="uppercase lastname">Zhou</strong> Guanyu</span>
+                  </div>
+                  <img loading="lazy" src="./images/teams/drivers/zhou.avif" alt="Zhou Guanyu" class="shrink-0 w-12 aspect-square" />
+                </div>
+              </div>
+              <figure class="flex overflow-hidden relative flex-col justify-center px-16 mt-2.5 min-h-[138px] max-md:px-5 max-md:max-w-full w-full mx-auto">
+                <img loading="lazy" src="./images/background.png" alt="" class="object-cover absolute inset-0 size-full z-0" />
+                <img loading="lazy" src="./images/teams/cars/kick-sauber.avif" alt="Kick Sauber Car Image" class="relative z-10 mr-3 ml-3.5 w-full aspect-[3.33] max-md:mr-2.5 max-md:max-w-full" />
+              </figure>
+            </header>
+          </article>
+        </div>
+      </section>
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6821f2cd8f71ae65fcaecd6f8b9c47a8299eebbdd765ede1fded941c88b0d951?apiKey=2070c01b03b744bf865318c7610aa52d&" alt="Footer Banner Image" class="self-center mt-10 w-full aspect-[14.29] max-md:max-w-full" />
+    </section>
+  </section>
 
     <script src="./js/preload.js"></script>
     <script src="./js/navbar.js"></script>

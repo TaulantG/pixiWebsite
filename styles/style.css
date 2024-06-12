@@ -135,7 +135,7 @@ body{
 
   /* width */
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
  /* Track */
 ::-webkit-scrollbar-track {
@@ -243,6 +243,9 @@ body{
   .hero-text h1 {
     font-size: 2rem;
   }
+  .panel.red::before {
+    font-size: 3em;
+  }
 
   #pixi-con {
     max-width: 500px;
@@ -274,6 +277,9 @@ body{
   }
   .text-video{
     font-size: 1rem;
+  }
+  .panel.red::before {
+    font-size: 2em; 
   }
 
   #pixi-con {
@@ -349,11 +355,9 @@ li.list-group-item.lart, .card-body{
 .lart{
   height: 40px;
 }
-<<<<<<< HEAD
-=======
+
 
 /* Timeline Container */
->>>>>>> 5390311fc180cd4ee5d0fe7232a818e5ba6e55db
 .timeline {
   background: var(--primary-color);
   margin: 20px auto;
@@ -451,10 +455,7 @@ li.list-group-item.lart, .card-body{
   border: 3px solid rgb(0, 0, 0);
 }
 
-<<<<<<< HEAD
 /* Text alignment and dot positioning for even and odd cards */
-=======
->>>>>>> 5390311fc180cd4ee5d0fe7232a818e5ba6e55db
 .cardt:nth-child(even) .titlee {
   text-align: right;
 }
@@ -465,8 +466,9 @@ li.list-group-item.lart, .card-body{
 
 .cardt:nth-child(even) .titlee::before {
   right: -45px;
-<<<<<<< HEAD
 }
+
+
 .container-video {
   width: 700%;
   display: flex;
@@ -672,6 +674,18 @@ li.list-group-item.lart, .card-body{
   max-height: 100%;
   object-fit: contain;
   z-index: 1;
-=======
->>>>>>> 5390311fc180cd4ee5d0fe7232a818e5ba6e55db
+}
+
+
+
+.year-title, .place-title{
+  font-family: formula-black;
+}
+
+.team-title, .lastname{
+  font-family: formula-bold;
+}
+
+.firstname{
+  font-family: formula-regular;
 }
